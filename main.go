@@ -17,9 +17,9 @@ func main() {
 	for scanner.Scan() {
 		line := scanner.Text()
 		// fmt.Println(line) // Println will add back the final '\n'
-		if strings.HasPrefix(line, "Benchmark") && strings.HasSuffix(line, "ns/op") {
+		if strings.HasPrefix(line, "Benchmark") {
 			fields := strings.Fields(line)
-			if len(fields) < 3 {
+			if len(fields) < 4 || fields[3] != "ns/op" {
 				fmt.Println(line)
 				continue
 			}
