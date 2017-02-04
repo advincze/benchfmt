@@ -13,7 +13,6 @@ func main() {
 	dur := flag.Duration("d", time.Second, "duration unit")
 	flag.Parse()
 
-	fmt.Println("bout")
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 		line := scanner.Text()
