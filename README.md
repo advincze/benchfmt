@@ -1,6 +1,7 @@
 # benchfmt
 
 add `ops/sec` output to go bechmarks:
+
 usage :
 
 ```bash
