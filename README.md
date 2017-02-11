@@ -10,6 +10,12 @@ $ go test -bench . | benchfmt
 BenchmarkFoo-4       	   50000	     37698 ns/op	26526 ops/1s
 ```
 
+
+
+
+
+
+
 or with additional duration param
 ```bash
 $ go test -bench . | benchfmt -d 1h
