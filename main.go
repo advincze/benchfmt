@@ -9,7 +9,7 @@ import "time"
 import "strconv"
 import "flag"
 
-func main() {
+func main() {  
 	dur := flag.Duration("d", time.Second, "duration unit")
 	flag.Parse()
 
