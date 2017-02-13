@@ -7,7 +7,9 @@ import "bufio"
 import "strings"
 import "time"
 import "strconv"
-import "flag"
+import "flag" 
+
+
 
 func main() {
 	dur := flag.Duration("d", time.Second, "duration unit")
