@@ -4,6 +4,8 @@ add `ops/sec` output to go bechmarks:
 
 usage :
 
+
+
 ```bash
 $ go test -bench . | benchfmt 
 
