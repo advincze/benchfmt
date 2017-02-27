@@ -1,3 +1,4 @@
+PR
 # benchfmt
 
 add `ops/sec` output to go bechmarks:
