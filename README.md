@@ -16,3 +16,4 @@ $ go test -bench . | benchfmt -d 1h
 
 BenchmarkFoo-4       	   50000	     37807 ns/op	95220461 ops/1h0m0s
 ```
+
