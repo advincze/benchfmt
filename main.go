@@ -41,3 +41,6 @@ func main() {
 
 type Bar struct {
 }
+
+type Baz struct {
+}
