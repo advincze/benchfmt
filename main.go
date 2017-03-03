@@ -10,7 +10,7 @@ import "strconv"
 import "flag"
 
 func main() {
-	dur := flag.Duration("d", time.Second, "duration unit")
+	dur := flag.Duration("d", time.Second, "duration unitss")
 	flag.Parse()
 
 	scanner := bufio.NewScanner(os.Stdin)
