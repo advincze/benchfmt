@@ -23,12 +23,12 @@ func main() {
 				fmt.Println(line)
 				continue
 			}
-			nsPerOp, err := strconv.ParseInt(fields[2], 10, 64)
+			nsPerOp, err := strconv.ParseFloat(fields[2], 64)
 			if err != nil {
 				fmt.Println(line)
 				continue
 			}
-			opsPerDur := dur.Nanoseconds() / nsPerOp
+			opsPerDur := int64(float64(dur.Nanoseconds()) / nsPerOp)
 			fmt.Printf("%s\t%d ops/%v\n", line, opsPerDur, dur)
 			continue
 		}
