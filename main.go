@@ -38,3 +38,9 @@ func main() {
 		fmt.Fprintln(os.Stderr, "reading standard input:", err)
 	}
 }
+
+type Bar struct {
+}
+
+type Baz struct {
+}
